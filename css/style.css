@@ -1,5 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@100..900&display=swap");
+
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   background-color: #f0f0f0;
@@ -7,15 +8,20 @@ body {
 
 .console {
   background-color: rgb(0, 0, 0);
-  color: white;
-  font-size: 14px;
+  color: rgb(255, 255, 255);
   padding: 10px;
-  width: 100%;
+  width: 55%;
   height: 300px;
-  overflow-y: auto;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  scrollbar-width: none; /* Oculta la barra de desplazamiento en Firefox,tambien funciona en chrome */
+  font-family: "Anonymous Pro", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
 }
 input {
-  width: 100%;
+  width: 55.3%;
   padding: 5px;
   box-sizing: border-box;
 }
